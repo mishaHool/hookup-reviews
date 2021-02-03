@@ -159,7 +159,7 @@ div.hide-layout {
     z-index: 1000;
     padding: 10px 30px;
     background: #fff0cb;
-    border-top: 1px solid #ffd75f
+    border-top: 1px solid red
 }
 
 .bottom_banner p {

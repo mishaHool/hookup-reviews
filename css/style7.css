@@ -2,7 +2,7 @@
 .bg_black .layout_bg,
 .bg_yellow,
 .btn {
-    background: #fc0
+    background: red
 }
 
 body {
@@ -10,7 +10,7 @@ body {
 }
 
 .highlighted {
-    color: #fc0
+    color: red
 }
 
 .member_in_form .info,
@@ -58,7 +58,7 @@ article a {
 }
 
 .title .deco_color {
-    color: #fc0
+    color: red
 }
 
 .single-comments .owl-theme .owl-controls .owl-page span {
