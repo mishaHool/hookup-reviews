@@ -1,0 +1,330 @@
+.HEADER .logo,
+.members-list,
+.slogan {
+    position: relative
+}
+
+.title h2 {
+    font-size: 32px
+}
+
+.title h2.big {
+    font-size: 42px
+}
+
+.content-txt h1 {
+    font-size: 32px
+}
+
+.content-txt h2 {
+    font-size: 20px
+}
+
+.right_buttons {
+    margin-right: 70px
+}
+
+.lang-login .login {
+    padding-right: 0
+}
+
+.form-Registration.set-form-with-member.show div.form-inline-member,
+.form-Registration.wizard-quiz.set-form-with-member.show div.form-inline-member {
+    padding: 0
+}
+
+.top_bar {
+    background: 0 0;
+    height: 0
+}
+
+.top_bar__add {
+    display: none
+}
+
+.HEADER .logo {
+    width: auto;
+    z-index: 50;
+    display: inline-block
+}
+
+.item__COUNTRY,
+.item__LOOKINGFOR,
+.set-view-more-btn .member_btn {
+    display: none
+}
+
+.logo a {
+    width: 300px
+}
+
+.logo__img {
+    width: 100%
+}
+
+blockquote {
+    text-align: left
+}
+
+.slogan {
+    max-width: 50%;
+    bottom: -130px
+}
+
+.slogan p {
+    font-size: 32px;
+    font-weight: 300
+}
+
+.set-view-more-btn .btn_pos {
+    display: block;
+    position: absolute;
+    left: 50%;
+    z-index: 1;
+    text-align: center;
+    top: 50%;
+    -moz-transform: translateX(-50%) translateY(-50%);
+    -webkit-transform: translateX(-50%) translateY(-50%);
+    -o-transform: translateX(-50%) translateY(-50%);
+    -ms-transform: translateX(-50%) translateY(-50%);
+    transform: translateX(-50%) translateY(-50%)
+}
+
+.member .member-box .member-info .info,
+.member_in_form .info {
+    display: none
+}
+
+div.logo p {
+    display: none;
+}
+
+.single-comments .comments-slider div.img {
+    width: 120px;
+    height: 120px
+}
+
+footer {
+    padding: 60px 0;
+    text-align: center
+}
+
+.social_links {
+    text-align: inherit
+}
+
+.logo_footer .logo__img {
+    width: 300px;
+    margin: 0 0 40px
+}
+
+.footer_nav {
+    text-align: center
+}
+
+.footer_nav li {
+    display: inline-block;
+    vertical-align: top;
+    text-transform: uppercase;
+    padding: 0 15px;
+    margin: 0 0 20px
+}
+
+.footer_nav li a {
+    color: #6c6c6c;
+    font-size: 14px
+}
+
+.footer_descr p {
+    font-size: 16px;
+    font-weight: 300;
+    font-style: italic
+}
+
+.form-Registration {
+    color: #000
+}
+
+.form-Registration .btn {
+    background: #1a0f11;
+    color: #fff;
+    border: 2px solid #1a0f11
+}
+
+.form-Registration .sexes {
+    position: relative
+}
+
+.form-Registration div.ico-man {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 35px;
+    height: 110px;
+    background: url(/img/ico-man.png) top left no-repeat
+}
+
+.form-Registration div.ico-woman {
+    position: absolute;
+    bottom: 0;
+    right: 5px;
+    width: 35px;
+    height: 110px;
+    background: url(/img/ico-woman.png) top left no-repeat
+}
+
+.form-Registration.wizard-quiz label>span {
+    color: #000;
+    position: relative;
+    z-index: 2
+}
+
+.form-Registration.wizard-quiz label>span::after,
+.form-Registration.wizard-quiz label>span::before {
+    content: "";
+    top: 50%;
+    width: 110px;
+    border-bottom: 1px solid #000;
+    z-index: 0;
+    position: absolute
+}
+
+.form-Registration.wizard-quiz label>span::after {
+    left: 0
+}
+
+.form-Registration.wizard-quiz label>span::before {
+    right: 0
+}
+
+.form-Registration h2 {
+    font-size: 26px
+}
+
+.form-Registration .title_reg div {
+    font-size: 22px;
+    font-weight: 300
+}
+
+.form-Registration.wizard-quiz label strong {
+    font-weight: 700;
+    margin-bottom: 20px;
+    display: inline-block
+}
+
+.form-Registration .deco {
+    position: absolute;
+    top: -50px;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    width: 190px;
+    height: 90px;
+    background: url(/img/confidential.png) top center no-repeat;
+    z-index: 2
+}
+
+.form-Registration .layout_bg {
+    padding: 35px 15px 20px
+}
+
+.btn_pos.special_position {
+    margin: 0 0 -55px;
+    position: relative;
+    z-index: 1
+}
+
+.btn_pos.special_position .btn {
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    top: -25px
+}
+
+@media screen and (max-width:768px) {
+    .slogan {
+        max-width: 100%;
+        bottom: auto
+    }
+    .HEADER .logo {
+        margin: -20px auto 40px
+    }
+    .btn_pos.special_position {
+        margin: 0 0 -30px
+    }
+    .logo a {
+        width: 220px
+    }
+    .HEADER .slogan {
+        padding-top: 300px
+    }
+}
+
+@media screen and (max-width:980px) {
+    .slogan.set_to_left,
+    div.form-Registration.set_to_right {
+        float: none
+    }
+    .HEADER .slogan {
+        bottom: inherit;
+        max-width: 100%;
+        text-align: center;
+        padding: 200px 0 0
+    }
+    div.form-Registration {
+        margin: 0 auto;
+        display: none
+    }
+    .HEADER .row>div>.btn_pos {
+        display: block
+    }
+}
+
+@media screen and (max-width:600px) {
+    .HEADER .slogan {
+        display: block
+    }
+    .HEADER .row>div>.btn_pos .btn,
+    .slogan p {
+        font-size: 24px
+    }
+    section.HEADER {
+        background-size: 1200px;
+        min-height: 550px
+    }
+    .title h2,
+    .title h2.big {
+        font-size: 22px
+    }
+    .title h3 {
+        font-size: 18px
+    }
+    .btn {
+        font-size: 20px
+    }
+    .blog__bottom a {
+        font-size: 18px
+    }
+    .content-txt h1 {
+        font-size: 24px
+    }
+    .content-txt h2 {
+        font-size: 18px
+    }
+    .footer_nav li a {
+        font-size: 12px
+    }
+    .footer_nav li {
+        margin: 0 0 5px
+    }
+    .sooner_left h3 {
+        font-weight: 300
+    }
+    .form-Registration.wizard-quiz.set-form-with-member.show div.form-inline-member {
+        padding: 0
+    }
+    .footer_descr p {
+        font-size: 13px
+    }
+}

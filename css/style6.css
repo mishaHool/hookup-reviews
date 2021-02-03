@@ -1,0 +1,62 @@
+.bx_breadcrumbs a {
+    text-transform: capitalize
+}
+
+.btn {
+    padding: 10px 20px
+}
+
+.menu__element:nth-child(3) .menu__lnk,
+.menu__element:nth-child(4) .menu__lnk {
+    font-size: 14px;
+    line-height: 45px
+}
+
+.ssl_logo {
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: 5px auto 0
+}
+
+.form-Registration .layout_bg {
+    display: block
+}
+
+.scr {
+    margin: 5px 0 0
+}
+
+div.no-absolute {
+    position: relative;
+    padding: 1px;
+    margin-top: 5px
+}
+
+div.logo p {
+    font-size: 10px;
+    opacity: .5;
+    text-transform: uppercase
+}
+
+.bg_black .bg_layout,
+.bg_black .layout_bg {
+    background: rgba(74, 14, 65, .85)
+}
+
+.form-Registration .small {
+    font-size: 11px
+}
+
+@media screen and (max-width:600px) {
+    .bottom_banner p {
+        font-size: 11px;
+        line-height: 120%
+    }
+    div.form-Registration.wizard-quiz {
+        margin-top: 180px
+    }
+    .slogan {
+        display: none
+    }
+}

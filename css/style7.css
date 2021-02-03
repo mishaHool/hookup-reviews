@@ -1,0 +1,76 @@
+.bg_black .bg_layout,
+.bg_black .layout_bg,
+.bg_yellow,
+.btn {
+    background: #fc0
+}
+
+body {
+    color: #333
+}
+
+.highlighted {
+    color: #fc0
+}
+
+.member_in_form .info,
+.member_in_form .username p,
+article a {
+    color: #000
+}
+
+.members-list .username p {
+    color: rgba(255, 237, 0, 1)
+}
+
+.btn {
+    color: #1a0f11;
+    border: 2px solid transparent
+}
+
+.btn:focus,
+.btn:hover {
+    color: #000;
+    background: #a4d900;
+    border: 2px solid #000;
+    transition: all 250ms ease-in-out
+}
+
+.btn.btn_reverse {
+    color: #fff;
+    background: #000;
+    border: 2px solid transparent;
+    box-shadow: 0 1px 2px 2px rgba(0, 0, 0, .15)
+}
+
+.btn.btn_reverse:hover,
+.form-Registration .btn:hover,
+.wld-button:hover {
+    color: #000;
+    background: #a4d900;
+    border: 2px solid #000
+}
+
+.btn.btn_article {
+    color: #000;
+    background: 0 0;
+    border: 2px solid #000
+}
+
+.title .deco_color {
+    color: #fc0
+}
+
+.single-comments .owl-theme .owl-controls .owl-page span {
+    background: 0 0;
+    border: 2px solid #464646
+}
+
+.single-comments .owl-theme .owl-controls .owl-page.active span {
+    background: #464646
+}
+
+.single-comments .comments-slider,
+.single-comments .comments-slider .author {
+    color: inherit
+}

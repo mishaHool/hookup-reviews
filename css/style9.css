@@ -1,0 +1,213 @@
+.easy_steps,
+.single-comments .author {
+    text-align: left
+}
+
+.devices_v2 h4,
+.easy_steps,
+.some_seo_text h3 {
+    font-weight: 300
+}
+
+.comments-list {
+    margin-bottom: 0
+}
+
+.flex_2 {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin: 0 -10px
+}
+
+.flex_2>div {
+    flex: 1 1 350px
+}
+
+.devices_left {
+    margin-right: 30px;
+    margin-bottom: 50px
+}
+
+.devices_right {
+    margin-left: 30px
+}
+
+.devices_right img {
+    margin-top: 50px;
+    max-width: 100%
+}
+
+.devices_v2 h4 {
+    font-size: 28px;
+    margin-right: 40px
+}
+
+.devices_left ul {
+    padding: 0 0 0 20px
+}
+
+.devices_left ul li {
+    margin: 0 0 20px;
+    background: url(/img/ok.png) 0 2px no-repeat;
+    padding: 0 0 0 45px;
+    min-height: 23px
+}
+
+.single-comments .comments-slider div.img {
+    float: left;
+    margin: 0 40px 0 0
+}
+
+.single-comments .comments-slider .element {
+    padding: 40px
+}
+
+.single-comments .comments-slider {
+    background: 0 0;
+    box-shadow: none
+}
+
+.single_element_comment {
+    margin: 0 0 40px
+}
+
+.single_element_comment div.img {
+    display: block;
+    width: 250px;
+    height: 250px;
+    overflow: hidden;
+    border-radius: 50%;
+    float: left;
+    margin: -20px 40px 0 0
+}
+
+.single_element_comment div.img img {
+    display: block;
+    margin: 0 auto;
+    width: 100%
+}
+
+.single_element_comment blockquote {
+    margin-top: 30px;
+    line-height: 180%
+}
+
+.sooner {
+    align-items: center
+}
+
+.sooner_left {
+    position: relative
+}
+
+
+/* header {
+    width: 100%;
+} */
+
+.sooner_left::after {
+    content: "";
+    position: absolute;
+    top: 50%;
+    right: -30px;
+    width: 60px;
+    height: 40px;
+    margin: -20px 0 0;
+    background: url(/img/arrow_right.png) center center no-repeat;
+    z-index: 1
+}
+
+.easy_steps {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    font-size: 22px;
+    margin: 30px 0
+}
+
+.easy_steps>div {
+    flex: 1 1 370px;
+    padding: 15px 20px 15px 90px;
+    max-width: 330px;
+    border: 1px dashed #fff;
+    border-radius: 5px;
+    margin: 0 0 40px
+}
+
+.easy_steps .step_1 {
+    background: url(/img/step_ico_1.png) 15px 15px no-repeat;
+    line-height: 50px;
+    text-align: center
+}
+
+.easy_steps .step_2 {
+    background: url(/img/step_ico_2.png) 15px 10px no-repeat
+}
+
+.easy_steps .step_3 {
+    background: url(/img/step_ico_3.png) 10px 15px no-repeat
+}
+
+@media screen and (max-width:1200px) {
+    .sooner_left::after {
+        display: none
+    }
+}
+
+@media screen and (max-width:768px) {
+    .devices_v2 div h4 {
+        margin: 0 auto 20px;
+        font-size: 22px;
+        text-align: center
+    }
+    .single_element_comment div.img {
+        width: 200px;
+        height: 200px;
+        float: none;
+        margin: 0 auto
+    }
+    .easy_steps {
+        font-size: 18px
+    }
+    .easy_steps>div {
+        margin: 0 0 20px
+    }
+    .single-comments .comments-slider div.img {
+        float: none;
+        margin: 0 auto 20px
+    }
+    .single-comments .content {
+        text-align: center
+    }
+    .owl-pagination {
+        bottom: 0
+    }
+    #sec {
+        width: 400% !important;
+    }
+    header {
+        width: 390%;
+    }
+    .MEMBERS {
+        width: 400%;
+    }
+    .set_txt_center {
+        width: 400%;
+    }
+    .white-bg {
+        width: 400%;
+    }
+    .COMMENTS {
+        width: 400%;
+    }
+    .BLOG {
+        width: 400%;
+    }
+    .SEO-TEXT {
+        width: 400%;
+    }
+    footer {
+        width: 400%;
+    }
+}
