@@ -11,9 +11,19 @@
     <meta name="Keywords" content="adultery, affair, casual dating, affair dating, having an affair, have an affair, extramarital affairs, how to have an affair, the affair site, playing the field, affair website, local cheaters, affair dating site, cheater website, cheater site"
     />
     <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="stylesheet " href="css/style1.css ">
+    <link rel="stylesheet " href="css/style2.css ">
+    <link rel="stylesheet " href="css/style3.css ">
+    <link rel="stylesheet " href="css/style4.css ">
+    <link rel="stylesheet " href="css/style5.css ">
+    <link rel="stylesheet " href="css/style6.css ">
+    <link rel="stylesheet " href="css/style7.css ">
+    <link rel="stylesheet " href="css/style8.css ">
+    <link rel="stylesheet " href="css/style9.css ">
+    <link rel="stylesheet" href="css/my.css">
 
     <link rel="icon" type="" href="img/favicon.png">
-    <style>
+    <!-- <style>
         /* PRELOADER LAYOUT */
         
         div.preloader-layout {
@@ -37,28 +47,15 @@
             margin: auto;
             font-size: 32px;
         }
-    </style>
+    </style> -->
 </head>
 
 <body class="en">
     <div class="hide-layout"></div>
-    <div class="preloader-layout" style="background: rgba(255, 255, 255,1); "> <span class="fa-stack">   <i class="fa fa-circle fa-stack-2x" style="color: black"></i> <i id="fa-bars" class="fa fa-cog fa-stack-1x fa-spin" aria-hidden="true" style="color: white"></i>   </span> </div>
     <header class="top_bar hide_logo">
         <div class="container">
             <div class="row">
                 <div class="pull-right right_buttons">
-                    <div class="lang-login">
-                        <div class="form-Login jsFormValidation"> <a class="login toggle">Login</a>
-                            <div class="toggled">
-                                <div class="login-links">
-                                    <p>Please choose the dating-network you registered:</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="country_switcher">
-                        <p class="lang_active"> <a href="#" class="flag_int"><span></span></a> </p>
-                    </div>
                 </div>
             </div>
         </div>
@@ -69,7 +66,7 @@
             <div class="row">
                 <div class="col-lg-12">
                     <div class="logo pull-left">
-                        <a> <img class="logo__img" src="img/logo.svg" alt=""> <img class="logo__img logo-light" src="img/logo-light.svg" alt=""> </a>
+                        <a href="index.html"> <img class="logo__img" src="img/hookup-logo.png" alt=""> <img class="logo__img logo-light" src="img/hookup-logo.png" alt=""> </a>
                     </div>
                     <div class="slogan set_to_left">
                         <p>Find a local hookup now!</p>
@@ -856,8 +853,9 @@
             </div>
         </div>
     </section>
-    <div class="bottom_banner ">
-        <p>This site uses cookies. We use cookies for proper functioning of web-site and to analyse our traffic. You consent to our cookies if you continue to use our website.</p> <i class="fa fa-times "></i> </div>
+    <div id="cookBlock" class="bottom_banner ">
+        <p>This site uses cookies. We use cookies for proper functioning of web-site and to analyse our traffic. You consent to our cookies if you continue to use our website.</p> <i id="cook" class="fa fa-times "></i>
+    </div>
     <footer>
         <div class="container ">
             <div class="row ">
@@ -866,7 +864,7 @@
                         <p>This website contains adult material, all members and persons appearing on this site have contractually represented to us that they are 18 years of age or older. </p>
                     </div>
                     <div class=" logo_footer ">
-                        <a> <img class="logo__img " src="/img/logo.svg " alt=" "> <img class="logo__img logo-light " src="/img/logo-light.svg " alt=""> </a>
+                        <a> <img class="logo__img " src="/img/hookup-logo.png " alt=" "> <img class="logo__img logo-light " src="/img/hookup-logo.png " alt=""> </a>
                     </div>
                     <div class="footer_nav ">
                         <nav>
@@ -890,27 +888,26 @@
             </div>
         </div>
     </footer>
-    <link rel="stylesheet " href="css/style1.css ">
-    <link rel="stylesheet " href="css/style2.css ">
-    <link rel="stylesheet " href="css/style3.css ">
-    <link rel="stylesheet " href="css/style4.css ">
-    <link rel="stylesheet " href="css/style5.css ">
-    <link rel="stylesheet " href="css/style6.css ">
-    <link rel="stylesheet " href="css/style7.css ">
-    <link rel="stylesheet " href="css/style8.css ">
-    <link rel="stylesheet " href="css/style9.css ">
-    <link rel="stylesheet" href="css/my.css">
     <script src="js/js1.js "></script>
     <script src="js/js2,.js "></script>
-    <script src="js/js3.js "></script>
-    <script src="js/js4.js "></script>
     <script src="js/js5.js "></script>
     <script src="js/js6.js "></script>
     <link href="js/js8.css " rel="stylesheet ">
     <script src="js/js9.js "></script>
     <link href="js/js10.css " rel="stylesheet ">
     <script src="js/js12.js "></script>
-    <script src="js/js15.js "></script>
     <script src="js/js16.js "></script>
+    <script>
+        let cook = document.getElementById('cook');
+        let cookBlock = document.getElementById('cookBlock')
+        if (!document.cookie.includes(click = true)) {
+            cook.addEventListener('click', function() {
+                document.cookie = 'click=true';
+                cookBlock.style.display = 'none';
+            })
+        } else {
+            cookBlock.style.display = 'none'
+        }
+    </script>
 
 </html>

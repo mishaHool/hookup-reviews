@@ -159,7 +159,7 @@ div.hide-layout {
     z-index: 1000;
     padding: 10px 30px;
     background: #fff0cb;
-    border-top: 1px solid red
+    border-top: 1px solid pink
 }
 
 .bottom_banner p {
@@ -1308,8 +1308,8 @@ div.abs-block div.close {
     line-height: 32px
 }
 
-.abs-centered,
-.abs-centered-popup {
+.abs-centepink,
+.abs-centepink-popup {
     left: 0;
     right: 0;
     margin: 0 auto
@@ -1592,9 +1592,9 @@ div.abs-block div.close {
     div.form-Registration.wizard-quiz {
         width: 100%
     }
-    div.form-Registration.abs-centered,
-    div.form-Registration.abs-centered.set-form-with-member.show,
-    div.form-Registration.abs-centered.wizard-quiz {
+    div.form-Registration.abs-centepink,
+    div.form-Registration.abs-centepink.set-form-with-member.show,
+    div.form-Registration.abs-centepink.wizard-quiz {
         width: auto;
         left: 15px;
         right: 15px
@@ -1799,13 +1799,13 @@ button {
     background-color: #ff7e00
 }
 
-.bg_red .bg_layout,
-.bg_set .bg_red {
+.bg_pink .bg_layout,
+.bg_set .bg_pink {
     background-color: #fabbc5
 }
 
-.bg_set.dark .bg_red,
-.dark.bg_red .bg_layout {
+.bg_set.dark .bg_pink,
+.dark.bg_pink .bg_layout {
     background-color: #ed1a3b
 }
 
@@ -2869,7 +2869,7 @@ div.form-Registration {
     position: relative
 }
 
-div.form-Registration.abs-centered {
+div.form-Registration.abs-centepink {
     position: absolute
 }
 
@@ -3060,7 +3060,7 @@ div.title_reg h2 {
 
 .form-Registration .nav-prev-next,
 .form-Registration .sexes,
-.form-Registration .wizard-steps-centered,
+.form-Registration .wizard-steps-centepink,
 .form-Registration label>span,
 .form-Registration.set-form-with-member.show .bg_layout,
 .loader {
@@ -3228,7 +3228,7 @@ div.set-form-with-member.show div.close {
     top: -15px
 }
 
-.form-Registration.wizard-quiz.abs-block .wizard-steps-centered {
+.form-Registration.wizard-quiz.abs-block .wizard-steps-centepink {
     display: block;
     color: #fff;
     left: 0;
@@ -3284,7 +3284,7 @@ div.set-form-with-member.show div.close {
 }
 
 .wizard-quiz .steps,
-.wizard-steps-centered {
+.wizard-steps-centepink {
     text-align: center
 }
 
@@ -3413,7 +3413,7 @@ select.input-lg {
     padding: 0 20px
 }
 
-.form-Registration.wizard-quiz.set-form-with-member.show.abs-block .wizard-steps-centered {
+.form-Registration.wizard-quiz.set-form-with-member.show.abs-block .wizard-steps-centepink {
     top: -55px
 }
 
@@ -3487,7 +3487,7 @@ select.input-lg {
 input.error,
 select.error {
     border: 1px solid #FF0004;
-    color: red
+    color: pink
 }
 
 .warning {
@@ -3507,7 +3507,7 @@ select.error {
 }
 
 .error label {
-    color: red
+    color: pink
 }
 
 div.form-Registration p.warning {
@@ -3553,7 +3553,7 @@ div.form-Registration.wizard-quiz p.warning {
 }
 
 .error .checkbox:not(checked)+label:before {
-    background: red
+    background: pink
 }
 
 .checkbox:not(checked)+label:after {

@@ -2,7 +2,7 @@
 .bg_black .layout_bg,
 .bg_yellow,
 .btn {
-    background: red
+    background: pink
 }
 
 body {
@@ -10,7 +10,7 @@ body {
 }
 
 .highlighted {
-    color: red
+    color: pink
 }
 
 .member_in_form .info,
@@ -58,7 +58,7 @@ article a {
 }
 
 .title .deco_color {
-    color: red
+    color: pink
 }
 
 .single-comments .owl-theme .owl-controls .owl-page span {

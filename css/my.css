@@ -10,8 +10,9 @@
     border-collapse: collapse;
     border-radius: 20px;
     overflow: hidden;
-    width: 100%;
+    width: 80%;
     background-color: #fff;
+    margin: auto;
 }
 
 .table-top thead {
@@ -25,7 +26,7 @@
     box-sizing: border-box;
     font-size: 16px;
     color: #fff;
-    background-color: red;
+    background-color: pink;
     border-radius: 20px 20px 0 0;
 }
 
@@ -205,7 +206,7 @@
     font-size: 22px;
     font-weight: 900;
     text-align: center;
-    color: red;
+    color: pink;
 }
 
 .table-top tbody:nth-child(4) {
@@ -286,7 +287,7 @@
     margin: 0;
     box-sizing: border-box;
     font-weight: 700;
-    color: red;
+    color: pink;
 }
 
 .table-top__action {
@@ -316,13 +317,18 @@
     padding: 15px 30px;
     white-space: nowrap;
     border-radius: 5px;
-    background-color: red;
+    background-color: pink;
     box-shadow: 8px 10px 15px 0 rgba(12, 13, 31, .14);
     color: #fff;
     font-size: 14px;
     font-weight: 700;
     border: none;
     transition: .3s;
+    color: white !important;
+}
+
+.button-4:hover {
+    background-color: black;
 }
 
 .table-top__read-review {
@@ -337,4 +343,9 @@
     box-sizing: border-box;
     text-align: center;
     margin-top: 10px;
+    color: black !important;
+}
+
+.content-txt a {
+    color: black;
 }
