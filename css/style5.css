@@ -1225,7 +1225,7 @@ blockquote:first-letter {
 @-webkit-keyframes pulse {
     75%,
     from {
-        background: #44b400
+        background: pink
     }
     76%,
     to {
@@ -1236,7 +1236,7 @@ blockquote:first-letter {
 @keyframes pulse {
     75%,
     from {
-        background: #44b400
+        background: pink
     }
     76%,
     to {
@@ -1835,14 +1835,14 @@ button {
 }
 
 .btn {
-    background: #44b400;
+    background: pink;
     border: 2px solid transparent
 }
 
 .btn:focus,
 .btn:hover {
     background: #fff;
-    color: #44b400;
+    color: pink;
     border: 2px solid #7ecb4f;
     transition: all .3s ease-in-out
 }
@@ -2036,7 +2036,7 @@ div.abs-block div.close.fa-times {
 }
 
 .online .status {
-    background: #44b400;
+    background: pink;
     border: 2px solid #fff;
     animation: pulse 2s infinite
 }
@@ -2047,7 +2047,7 @@ div.abs-block div.close.fa-times {
 }
 
 .chat {
-    background: #44b400
+    background: pink
 }
 
 .send {
@@ -2055,7 +2055,7 @@ div.abs-block div.close.fa-times {
 }
 
 .member_in_bubble .profile {
-    background: #44b400
+    background: pink
 }
 
 .layout_bg {
@@ -2198,7 +2198,7 @@ blockquote {
 }
 
 .statistic_block li.on b {
-    color: #44b400
+    color: pink
 }
 
 .dark .statistic_block li.on b {
@@ -2348,8 +2348,8 @@ div.active_block input[name=email] {
 }
 
 div.active_block input[type=button] {
-    background: #44b400;
-    border: 1px solid #44b400;
+    background: pink;
+    border: 1px solid pink;
     border-radius: 5px;
     font-size: 24px;
     font-weight: 700
@@ -2825,8 +2825,8 @@ div.active_block input[type=button] {
     display: block;
     width: 25px;
     height: 25px;
-    border-left: 2px solid #44b400;
-    border-right: 2px solid #44b400;
+    border-left: 2px solid pink;
+    border-right: 2px solid pink;
     border-top: 2px solid transparent;
     border-bottom: 2px solid transparent;
     border-radius: 50%;
@@ -3399,9 +3399,6 @@ select.input-lg {
 .form-Registration.set-form-with-member .best {
     display: none
 }
-
-
-/*!!!!!!!*/
 
 .form-Registration.set-form-with-member.show div.form-inline-member {
     padding: 20px;

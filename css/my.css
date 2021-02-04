@@ -349,3 +349,7 @@
 .content-txt a {
     color: black;
 }
+
+.content-txt a:hover {
+    color: black;
+}
